@@ -1,16 +1,15 @@
 #container {
-    margin: 20px;
-    font-size: 20px;
+  margin: 20px;
+  font-size: 20px;
 }
 
 #container::before {
-    content: "2 ";
-    color: #f00;
-    font-size: 20px;
+  content: "Before Element ";
+  color: #f00;
 }
 
 #container::after {
-    content: " 3";
-    color: #f00;
-    font-size: 20px;
+  content: " After Element";
+  color: #f00;
 }
+
